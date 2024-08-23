@@ -14,4 +14,3 @@ def avaliar_clientes_csv(caminho_arquivo, pontuacao_minima, receita_minima):
     for index, row in df.iterrows():
         status = "Adequado" if row['adequado'] else "Não Adequado"
         print(f"Cliente: {row['nome']} - Status: {status}")
-
